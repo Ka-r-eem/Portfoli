@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', Arial, sans-serif;
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+
+}
+
+header{
+    border-color: rgb(82, 183, 199);
+    background-color:#000000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+    color: #bd4a40;
+    border-style:hidden;
+}
+.circle-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+  .circle-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+.logo{
+    text-decoration:transparent;
+    color: rgb(82, 183, 199);
+    text-transform:uppercase ;
+    font-weight: 600;
+    font-size: 1.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 650px;
+background: transparent;
+
+}
+
+.navigation a{
+    border-color: rgb(88, 201, 218);
+    border: #000000;
+    background-color:rgb(3, 3, 3); ;
+    text-decoration: none;
+    color: rgb(82, 183, 199);
+    border-color: rgb(142, 231, 245);
+    border-style:double;
+    border-radius: 8px;
+    padding-left: 20px;
+    transition: 0.7s ease;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url(images/wallpaperflare.com_wallpaper\ \(2\).jpg); */
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 1px;
+    
+
+}
+body {
+  background-image: url('images/wallpaperflare.com_wallpaper\ \(2\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.navigation a:hover{
+    color: #ffffff;
+    border-color: rgb(82, 183, 199);
+    background-color: rgb(82, 183, 199);
+    
+    
+}
+
+section{
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.main h2{
+    color: azure;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10 px;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-btn {
+    color: rgb(82, 183, 199);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(82, 183, 199);
+    ;
+    border-style:solid;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+
+
+}
+.main-btn:hover{
+    background-color:rgb(82, 183, 199);
+    transform: scale(1.1);
+    color: #ffffff;
+}
+.icons a{
+    color: aliceblue;
+    font-size: 1.2em;
+    padding-right: 10px;
+
+}
+.main h3 {
+    color: aliceblue;
+    font-size: 1.0em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.About {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .About img {
+    width: 550px;
+    height: 700px;
+    flex: 1;
+    position:relative;
+    right: 100px; 
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc
+  
+  
+  }
+  
+  .About  {
+    flex: 1;
+    color: azure;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  .About .h2 {
+    font-size: 2em;
+    font-weight: 600;
+
+  }
+  
+  .About h3 {
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-bottom:1%;
+
+  }
+  
+  .About .skills {
+    width: 500px;
+    margin: 20px;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0, 10px, 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .About .skills h1 {
+    color: #ffffff;
+  }
+  
+  .About .skills li {
+    margin: 1px 0;
+    padding: 1px;
+  }
+  
+  .About .skills .bar {
+    background: #353b48;
+    display: block;
+    height: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.125), 0, 1px, 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .About .skills .bar:checked {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0, 10px, 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .About .skills .bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(
+      135deg,
+      rgba(236, 0, 140, 1) 0%,
+      rgba(252, 103, 103, 1.0) 100%
+    );
+  }
+  
+  .About .skills .HTML {
+    width: 70%;
+    animation: HTML 3s;
+  }
+  
+  .About .skills .CSS {
+    width: 70%;
+    animation: CSS 3s;
+  }
+  
+  .About .skills .MYSQL {
+    width: 90%;
+    animation: MYSQL 3s;
+  }
+  
+  .About .skills .JAVA {
+    width: 80%;
+    animation: JAVA 3s;
+  }
+  
+  .About .skills .SOLID {
+    width: 70%;
+    animation: SOLID 3s;
+  }
+  
+  .About .skills .SSIS {
+    width: 90%;
+    animation: SSIS 3s;
+  }
+  
+  .About .skills .DATABASES {
+    width: 90%;
+    animation: DATABASES 3s;
+  }
+  
+  .About .skills .FLUTTER {
+    width: 90%;
+    animation: FLUTTER 3s;
+  }
+  
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+} 
+@keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+} 
+@keyframes MYSQL{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+} 
+@keyframes JAVA{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+} 
+@keyframes SOLID{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+} 
+@keyframes SSIS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+} 
+@keyframes DATABASES{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+} 
+@keyframes FLUTTER{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }}
+
+    .title {
+      display: flex;
+      justify-content: center;
+      color: rgb(82, 183, 199);
+      font-size: 2.3em;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+  }
+  
+  .content {
+      display: flex;
+      justify-content: center;
+      color: rgb(82, 183, 199);
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
+  .card {
+      background-color: #000000;
+      width: 21.25em;
+      box-shadow: 0px 5px 25px rgba(1 1 1 / 15%);
+      border-radius: 15px;
+      padding: 25px;
+      margin: 15px;
+      transition: 0.7s ease;
+  }
+  
+  .info {
+      text-align: center;
+  }
+  
+  .info h3 {
+      font-size: 1.5em;
+      font-weight: 600;
+      margin: 10px;
+  }
+  
+  .card:hover {
+      transform: scale(1.1);
+  }
+  
+  .icon {
+      text-align: center;
+      font-size: 2.5em;
+      color: rgb(82, 183, 199);
+  }
+  .projects {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+  .card .projects {
+      background-color: rgb(0, 0, 0);
+  }
+  
+  .projects .content {
+      margin-top: 30px;
+  }
+  
+  .project-card {
+      background-color: rgb(0, 0, 0);
+      border: 1px solid cadetblue;
+      width: 22em;
+      min-height: 14em;
+      overflow: hidden;
+      border-radius: 15px;
+      margin: 20px;
+      transition: 0.7s ease;
+  }
+  
+  .project-card:hover {
+      transform: scale(1.1);
+  }
+  
+  .project-card:hover .project-image {
+      opacity: 0.9;
+  }
+  
+  .project-card img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .project-info {
+      padding: 1em;
+  }
+  
+  .project-category {
+      font-size: 0.8em;
+      color: rgb(82, 183, 199);
+
+  }
+  
+  .project-title {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  
+  .more-details {
+      text-decoration:underline;
+      color: rgb(82, 183, 199);
+      font-weight: 700;
+      letter-spacing: 1px;
+      transition: all 0.3s ease-in-out;
+  }
+  
+  .more-details:hover {
+      color: rgb(64, 139, 151)
+  }
+  
+  .contact icon {
+      font-size: 4.5em;
+  }
+  
+  .contact .info h3 {
+      color: rgb(82, 183, 199);
+  }
+  
+  .contact .info p {
+      color: rgb(82, 183, 199);
+      font-size: 1.5em;
+  }
+  
+  .footer {
+      background-color: rgb(4, 4, 4);
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .footer-title {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #fdfefd;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-title span {
+      color: rgb(82, 183, 199);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  .footer .social a {
+      font-size: 1.5em;
+  }
+  
+  @media(max-width:1023px) {
+      header {
+          padding: 12px 20px;
+      }
+      .navigation a {
+          padding-left: 10px;
+      }
+      .title {
+          font-size: 1.5em;
+      }
+      .section {
+          padding: 80px 20px;
+      }
+      .main-content h2 {
+          font-size: 1em;
+      }
+      .main-content h3 {
+          font-size: 1.6em;
+      }
+      .contnet {
+          flex-direction: column;
+          align-items: center;
+      }
+  }
+  
+  @media(max-width:641px) {
+      body {
+          font-size: 12px;
+      }
+      .main-content h2 {
+          font-size: 0.8em;
+      }
+      @media(max-wedith: 320px) {
+          body {
+              font-size: 10px;
+          }
+          .main-content h2 {
+              font-size: 0.7em;
+          }
+      }
+  }    
